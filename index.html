@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #container, #contact, #about, #projects {
+            background-image: url('./5026563.jpg');
+            background-size: cover;
+            background-repeat:repeat-x;
+        }
+
+        .progress-bar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .react::before {
+            content: "React";
+        }
+
+        .react {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(#61DBFB 85%, #E4E7E6 0);
+        }
+
+        .express::before {
+            content: "Express";
+        }
+
+        .express {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(#3C873A 95%, #E4E7E6 0);
+        }
+
+        .node::before {
+            content: "HTML";
+        }
+
+        .node {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(#F06529 75%, #E4E7E6 0);
+        }
+
+        .mongodb::before {
+            content: "mongodb";
+        }
+
+        .mongodb {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(#00ED64 55%, #E4E7E6 0);
+        }
+
+        .bootstrap::before {
+            content: "Bootstrap";
+        }
+
+        .bootstrap {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(#7952B3 35%, #E4E7E6 0);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg"
+        style="font-family: 'Poppins', sans-serif; font-weight: 500; background-color: white;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand ms-5">
+                IMRAN'S PROTFOLIO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="navbar-collapse-support">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse-support">
+                <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0">
+        <!-- cover -->
+        <div class="d-flex justify-content-center align-items-center flex-column" id="container" style="height: 90vh;">
+            <p style="font-weight: 700; font-size: 50px;" class="text-center px-2">HEY, I'M IMRAN KALEEL</p>
+            <p class="text-center px-2" style="font-family: 'Noto Sans JP', sans-serif;">
+                A Passionate Full Stack
+                Developer with a dedicated focus on the MERN stack and PHP<br /> I thrive on the challenges of
+                full-stack development
+            </p>
+
+            <a href="#projects" class="btn btn-warning text-dark"
+                style="font-family: 'Noto Sans JP', sans-serif; font-weight: 700;">
+                PROJECTS
+            </a>
+        </div>
+
+        <!-- About -->
+        <div id="about" class="d-flex justify-content-center align-items-center"
+            style="min-height: 100vh; background-color: #E4E7E6;">
+            <div class="rounded w-75 bg-light shadow">
+                <div class="head mt-2 ms-4 border-bottom border-warning" style="height: 10%; font-size: 30px;">
+                    ABOUT
+                </div>
+                <div class="p-4">
+                    <p>Hello, I'm Imran Kaleel, a passionate frontend developer with a diverse skill set encompassing
+                        the MERN
+                        stack, PHP, and WordPress. My journey in the realm of web development has been marked by a
+                        relentless pursuit of crafting seamless user experiences and bringing ideas to life through
+                        code.
+                    </p>
+                    <h6>Key Achievements:</h6>
+                    <p>
+                        One of my notable accomplishments is the successful development of midogram.com, a fully
+                        functional
+                        social media application. This project not only honed my technical skills but also allowed me to
+                        explore the intricacies of creating engaging online platforms.
+                    </p>
+
+                    <h6>Passion and Dedication:</h6>
+                    <p>My passion for frontend development extends beyond mere coding. I thrive on the challenges posed
+                        by new projects and am dedicated to delivering solutions that seamlessly blend innovation and
+                        usability.</p>
+
+                    <h6>Future Endeavors:</h6>
+                    <p>Eager to take on new challenges and continuously expand my skill set, I am enthusiastic about
+                        contributing to projects that push the boundaries of what is possible in web development.
+
+                        Thank you for visiting my portfolio. If you have any inquiries or exciting projects on the
+                        horizon, feel free to reach out. Let's collaborate to turn ideas into digital realities.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects" class="p-2" style=" background-color: #E4E7E6;">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 col-md-5 rounded shadow my-md-0 my-3 mx-2" style=" background-color: white;">
+                    <div class="head mt-2 ms-4 border-bottom border-warning pb-2 d-flex justify-content-between"
+                        style="height: 50px; font-size: 22px;">
+                        MIDOGRAM
+                        <div>
+                            <a href="https://midogram.com" target="_blank" class="btn btn-warning">Go</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+
+                        <h6>Midogram.com - Full-Stack Social Media Application</h6>
+
+                        <p> I take pride in being the sole developer behind the creation of "Midogram.com," a dynamic
+                            and feature-rich social media application. This project has been a testament to my
+                            dedication and proficiency in full-stack development, where I seamlessly integrated various
+                            technologies to deliver a robust and engaging platform.
+                        </p>
+                        <h6>Technologies Utilized:</h6>
+                        <div class="d-flex">
+                            <div class="progress-bar react me-2">
+                                <progress value="95" min="0" max="100"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
+                            </div>
+                            <div class="progress-bar me-2 express">
+                                <progress value="75" min="0" max="100"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
+                            </div>
+                            <div class="progress-bar me-2 mongodb">
+                                <progress value="75" min="0" max="100"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
+                            </div>
+                            <div class="progress-bar me-2 node">
+                                <progress value="75" min="0" max="100"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
+                            </div>
+                            <div class="progress-bar me-2 bootstrap">
+                                <progress value="75" min="0" max="100"
+                                    style="visibility:hidden;height:0;width:0;"></progress>
+                            </div>
+                        </div>
+                        <h6 class="mt-3">Others:</h6>
+                        <p>
+                            <span class="fw-bold">Redux:</span> Implemented for centralized state management, enhancing
+                            predictability and stability
+                            for a consistent user experience.
+                        </p>
+                        <p>
+                            <span class="fw-bold">JWT (JSON Web Tokens):</span> Implemented for secure authentication,
+                            managing user sessions, and
+                            enhancing overall platform security.
+                        </p>
+                        <p>
+                            <span class="fw-bold">Editor.js:</span> A modular and user-friendly block-style editor for
+                            the web, simplifying content
+                            creation with its clean interface and customizable blocks. Developers appreciate its robust
+                            API, enabling seamless integration and extension, while users benefit from an intuitive
+                            editing experience and real-time collaboration features. Editor.js is a versatile solution
+                            for dynamic and structured content development.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 rounded bg-light shadow  mx-2" style=" background-color: white;">
+                    <div class="head mt-2 ms-4 border-bottom border-warning pb-2 d-flex justify-content-between"
+                        style="height: 50px; font-size: 22px;">
+                        NGO Website - WordPress
+                        <!-- <div>
+                            <a href="https://midogram.com" target="_blank" class="btn btn-warning">Go</a>
+                        </div> -->
+                    </div>
+                    <div class="p-4">
+
+                        <h6>College Club Website - Web Development Project</h6>
+
+                        <p> As part of my commitment to web development, I undertook the task of creating a
+                            comprehensive website from scratch for my college club. This project served as a testament
+                            to my proficiency in a range of web technologies.
+                        </p>
+                        <h6>Key Components:</h6>
+                        <p><span class="fw-bold">HTML, CSS, JavaScript:</span>
+                            Leveraging the trio of fundamental web technologies to craft a dynamic and visually
+                            appealing user interface.
+                        </p>
+                        <p><span class="fw-bold">PHP:</span>
+                            Implementing server-side functionality with PHP to enhance the website's interactivity and
+                            responsiveness.
+                        </p>
+                        <p><span class="fw-bold">WordPress:</span>
+                            Going beyond basic development, I took the initiative to build a custom WordPress template
+                            from the ground up. This bespoke template, tailored to the specific needs of our college
+                            club, showcased my ability to design and implement customized solutions within the WordPress
+                            platform.
+                        </p>
+                        <p>
+                            This project not only demonstrates my technical skills across various web technologies but
+                            also underscores my capacity to take initiative in creating tailored solutions for specific
+                            needs. The College Club Website stands as a live example of my dedication to delivering
+                            effective and customized web solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mt-2 mt-md-5">
+                <div class="col-10 col-md-5 rounded shadow my-md-0 my-3 mx-2" style=" background-color: white;">
+                    <div class="head mt-2 ms-4 border-bottom border-warning pb-2 d-flex justify-content-between"
+                        style="height: 50px; font-size: 22px;">
+                        Frontend Design - Responsive
+                        <div>
+                            <a href="https://github.com/Imran-Kaleel/fontend-design" target="_blank"
+                                class="btn btn-warning">Github</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+
+                        <h6>Responsive Website Design with HTML, CSS, and Bootstrap:</h6>
+
+                        <p>I've crafted a dynamic and visually appealing website using a combination of HTML, CSS, and
+                            Bootstrap. This responsive design ensures an optimal viewing experience across various
+                            devices,
+                            adapting seamlessly to different screen sizes. By leveraging Bootstrap's powerful framework,
+                            I've created a consistent and mobile-friendly layout, incorporating intuitive navigation and
+                            visually engaging elements. This project not only showcases my proficiency in front-end
+                            development but also underscores a commitment to delivering a user-centric experience in the
+                            ever-evolving digital landscape.</p>
+
+                        <h6>Technological Proficiency:</h6>
+                        <p>
+                            <span class="fw-bold">HTML5 and CSS3:</span> The website is built with modern HTML5 markup
+                            and CSS3 styles, adhering to
+                            the latest web standards.
+                        </p>
+                        <p>
+                            <span class="fw-bold">Bootstrap Framework:</span> Bootstrap serves as the backbone of the
+                            project, providing a responsive
+                            and mobile-friendly foundation for the entire website.
+                        </p>
+                        <p>
+                            <span class="fw-bold">Custom Styling:</span> While Bootstrap provides a solid framework,
+                            I've
+                            implemented custom styling
+                            to give the website a unique and distinctive look that aligns with the brand or project
+                            identity.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5 rounded bg-light shadow  mx-2" style=" background-color: white;">
+                    <div class="head mt-2 ms-4 border-bottom border-warning pb-2 d-flex justify-content-between"
+                        style="height: 50px; font-size: 22px;">
+                        Laravel CURD with AJAX
+                        <div>
+                            <a href="https://github.com/Imran-Kaleel/nov11imrankaleel" target="_blank"
+                                class="btn btn-warning">Github</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+
+                        <h6>Student-Subject Management System in Laravel:</h6>
+
+                        <p>The Student-Subject Management System is a robust Laravel-based web application designed to
+                            streamline the management of student records and their corresponding subjects. This project
+                            implements a one-to-many relationship between students and subjects, providing a flexible
+                            and organized structure for academic data.</p>
+
+                        <h6>Key Features:</h6>
+                        <p>
+                        <ul>
+                            <li>Student and Subject Management</li>
+                            <li>One-to-Many Relationship</li>
+                            <li>Dynamic AJAX Operations</li>
+                            <li>Responsive Design</li>
+                            <li>Data Validation and Security</li>
+                        </ul>
+                        </p>
+                        <h6>Technologies Used</h6>
+                        <p><span class="fw-bold">Laravel:</span> The project is built using the Laravel framework,
+                            taking advantage of its expressive
+                            syntax and powerful features for web development.</p>
+
+                        <p><span class="fw-bold">MySQL:</span> The database management system used for storing and
+                            retrieving student and subject
+                            data.</p>
+                        <p><span class="fw-bold">AJAX:</span> Dynamic updates and status changes are achieved through
+                            asynchronous JavaScript and
+                            XML (AJAX) for a smoother user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="d-flex justify-content-center align-items-center"
+            style="min-height: 70vh; background-color: #E4E7E6;">
+            <div class="row rounded w-75 bg-light shadow" style="min-height: 250px;">
+                <div>
+                    <p class="text-center mb-0">get in touch</p>
+                    <h3 class="text-center fw-bold">CONTACT</h3>
+                </div>
+
+                <div class="col-5 ">
+                    <div class="my-2 fw-bold ms-4">
+                        <div class="d-inline-block text-center pt-2 me-2"
+                            style="min-width: 50px; min-height: 50px; background-color: grey; border-radius: 50%;">
+                            <i class="bi bi-envelope-at-fill text-light" style="font-size: 24px;"></i>
+                        </div>
+                        imrankaleel455@gmail.com
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="my-2 fw-bold ms-4">
+                        <div class="d-inline-block text-center pt-2 me-2"
+                            style="min-width: 50px; min-height: 50px; background-color: grey; border-radius: 50%;">
+                            <i class="bi bi-linkedin text-light" style="font-size: 24px;"></i>
+                        </div>
+                        <a href="http://linkedin.com/in/imran-kaleel" target="_blank" class="text-dark">imran-kaleel</a>
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="my-2 fw-bold ms-4">
+                        <div class="d-inline-block text-center pt-2 me-2"
+                            style="min-width: 50px; min-height: 50px; background-color: grey; border-radius: 50%;">
+                            <i class="bi bi-github text-light" style="font-size: 24px;"></i>
+                        </div>
+                        <a href="https://github.com/imran-kaleel" target="_blank" class="text-dark">imran-kaleel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
